@@ -4,13 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .flex-container{
+            display: flex;
+            border: 1px solid black;
+            height: 150px;
+            gap: 10px;
+            padding: 10px;
+            justify-content: space-between;
+        }
+        .box{
+            display:flex;
+            gap: 50px;
+            height: 100px;
+            width: 100px;
+            border: 2px solid rgb(22, 178, 154);
+            flex-basis: 100px;
+            flex-grow: 0;
+            flex-shrink: 1;
+        }
+
+    </style>
 </head>
 <body>
     <div class = "flex-container">
-        <div class="box1">Home</div>
-        <div class="box1">About</div>
-        <div class="box1">Contact Us</div>
-        <div class="box1">The best programming school in the world</div>
+        <div class="box">Home</div>
+        <div class="box">About</div>
+        <div class="box">Contact Us</div>
+        <div class="box">The best programming school in the world</div>
     </div>
 </body>
 </html>
