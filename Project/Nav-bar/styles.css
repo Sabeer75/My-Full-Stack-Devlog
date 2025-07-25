@@ -1,62 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(110, 106, 106);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(110, 106, 106);
 }
 
-li , a , button{
-    font-family: "Monserrat", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: white;
-    text-decoration: none;
+li,
+a,
+button {
+  font-family: "Monserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
 }
 
-.nav_links{
-    list-style: none;
-    display: flex;
-    gap: 80px;
+.nav_links {
+  list-style: none;
+  display: flex;
+  gap: 80px;
 }
 
-
-.nav_links li a{
-    transition: all 0.8s ease 0s;
+.nav_links li a {
+  transition: all 0.8s ease 0s;
 }
 
-.nav_links li a:hover{
-    color: rgb(31, 140, 218);
+.nav_links li a:hover {
+  color: rgb(31, 140, 218);
 }
 
-.logo{
-    height: 50px;
-    width: 75px;
-    cursor: pointer;
-    transition: all 0.5s ease 0s;
-    border-radius: 5px;
+.logo {
+  height: 50px;
+  width: 75px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  border-radius: 5px;
 }
-.logo:hover{
-    background-color: rgb(120, 118, 118);
+.logo:hover {
+  background-color: rgb(120, 118, 118);
 }
 
 button {
-    padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1) ;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.5s ease 0s;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
 }
 
-button:hover{
-    background-color: aqua;
+button:hover {
+  background-color: aqua;
 }
